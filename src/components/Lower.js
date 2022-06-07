@@ -55,8 +55,8 @@ function Lower(){
     </div>
     <div class="col lc1   ">
         <h3 className="mb-5">Know More About Us</h3>
-        <a href="" className="fa fa-facebook mt-3 me-5 mb-4  " style={{width:"50px" ,fontSize:"30px",backgroundColor:"black",color:"white"}}></a>
-        <a href="" className="fa fa-twitter" style={{width:"50px" ,fontSize:"30px",backgroundColor:"black",color:"white"}}></a>
+        <a href=" https://www.facebook.com/adroidconnectz" className="fa fa-facebook mt-3 me-5 mb-4  " style={{width:"50px" ,fontSize:"30px",backgroundColor:"black",color:"white"}}></a>
+        <a href=" https://twitter.com/AdroidConnectz " className="fa fa-twitter" style={{width:"50px" ,fontSize:"30px",backgroundColor:"black",color:"white"}}></a>
         <div>
             <h6>Address :</h6>
             <p>I-4/125, First Floor, Sector-16,  Rohini, Delhi-110085, INDIA</p>
