@@ -6,10 +6,10 @@ import Foot from './component/foot';
 function Contact_us() {
   return (
    <div>
-<Navbar />
+
 <Mid />
-<Low />
-<Foot />
+
+
    </div>
   );
 }
