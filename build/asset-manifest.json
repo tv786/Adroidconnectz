@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/static/js/main.16f5e609.js",
+    "static/media/bg1.jpeg": "/static/media/bg1.67c3faf8bca610e24c64.jpeg",
+    "static/media/acarousel5.jpeg": "/static/media/acarousel5.789dbce3a8ed7a2bf0e9.jpeg",
+    "static/media/acarousel1.jpeg": "/static/media/acarousel1.5a28f69a5dfd9d7324c7.jpeg",
+    "static/media/acarousel3.jpeg": "/static/media/acarousel3.b5fdc2c49c74aed7952e.jpeg",
+    "static/media/acarousel6.jpeg": "/static/media/acarousel6.a913f96a0b044e374625.jpeg",
+    "static/media/bcarousel2.jpeg": "/static/media/bcarousel2.b76f843b811bc9bc7f6e.jpeg",
+    "static/media/bcarousel1.jpeg": "/static/media/bcarousel1.81250f6f9e868f1e6f49.jpeg",
+    "static/media/acarousel2.jpeg": "/static/media/acarousel2.f25d297873a738be9569.jpeg",
+    "static/media/bcarousel3.jpeg": "/static/media/bcarousel3.a93670a8119b6c747b50.jpeg",
+    "static/media/acarousel4.jpeg": "/static/media/acarousel4.f927d5e1c604d0abc188.jpeg",
+    "static/media/mentor.jpeg": "/static/media/mentor.90cbcbcf05c9a03183b1.jpeg",
+    "static/media/student.jpeg": "/static/media/student.33d4e95e48123ae017c4.jpeg",
+    "static/media/adroidlogo.png": "/static/media/adroidlogo.cae031c42a1e202b0635.png",
+    "static/media/logo.png": "/static/media/logo.cae031c42a1e202b0635.png",
+    "static/media/doodle.jpeg": "/static/media/doodle.1ec480f84ac32de07e97.jpeg",
+    "index.html": "/index.html",
+    "main.16f5e609.js.map": "/static/js/main.16f5e609.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.16f5e609.js"
+  ]
+}
