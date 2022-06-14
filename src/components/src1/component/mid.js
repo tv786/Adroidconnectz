@@ -6,7 +6,7 @@ function Mid() {
         <p style={{color:"blue"}}>Get in touch</p>
           <h1>Unparalleled Customer Support</h1>
           <p>
-            Whether you already use Project Pals or want to see how our project
+            Whether you already use AdroidConnectz or want to see how our project
             based-learning platform can benefit your classroom, we’re here to
             help.
           </p>
@@ -19,7 +19,7 @@ function Mid() {
               Email
           </h6>
           <p>
-          support@projectpals.com
+          support@adroidconnectz.com
 
 
           </p>
