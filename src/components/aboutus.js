@@ -9,7 +9,7 @@ function Aboutus() {
          `,
          backgroundBlendMode:"multiply",
          color:"white",
-         opacity:"0.75"
+
 
       }}
     >
