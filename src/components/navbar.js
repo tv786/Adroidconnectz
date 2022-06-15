@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Link} from 'react-router-dom'
 
 function Navbar(){
     return(
@@ -8,15 +9,15 @@ function Navbar(){
         <nav className="navbar bg-light">
     <div className=" mt-2 mb-2 mx-auto  ">
     
-    <a 
+    <Link
      className="me-4 example" style={{ textDecoration: 'none',color:"red" }}
-     >
+    to="/" >
         Home
-      </a><a className="me-4" style={{ textDecoration: 'none', color:"red" }} >
+      </Link><a className="me-4" style={{ textDecoration: 'none', color:"red" }} href='#aboutus' >
             About Us
-      </a><a className="me-4" style={{ textDecoration: 'none' , color:"red" }} >
+      </a><Link className="me-4" style={{ textDecoration: 'none' , color:"red" }} to="/features">
             Features
-      </a><a className="" style={{ textDecoration: 'none' , color:"red" }} >
+      </Link><a className="" style={{ textDecoration: 'none' , color:"red" }} >
         FAQ 
       </a>
       </div>
