@@ -1,12 +1,12 @@
 import bcarousel1 from "./bcarousel1.jpeg";
 import bcarousel2 from "./bcarousel2.jpeg";
 import bcarousel3 from "./bcarousel3.jpeg";
-import doodle from "./doodle.jpeg";
+import doodle from "./doodle1.jpeg";
 
 function Carousel2() {
   return (
-    <div className="mt-5"    
-        style={{ backgroundImage: `url(${doodle})`, alignItems:"center"}}
+    <div className=""    
+        style={{ backgroundImage: `url(${doodle})`, alignItems:"center", opacity:""}}
     >
 
     <h1 className="pt-5 pb-5 " style={{textAlign: "center"}}>What is 
