@@ -1,12 +1,11 @@
 import React from 'react';
+
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
-import {NavLink, Link} from 'react-router-dom'
-import Contact_us from './src1/Contactus.js';
+import { Link} from 'react-router-dom'
 import logo from "./adroidlogo.png"
 function Header(){
     return(
-<Router>
+
 
         <nav className="navbar bg-dark">
   <div className=" mt-2 mb-2 container "style={{  marginRight:0} }>
@@ -20,11 +19,7 @@ function Header(){
     
   </div>
 </nav>
-<Routes>
-          <Route path="/contact" element={<Contact_us />} />
 
-        </Routes>
-</Router>
         )
 }
 export default Header;  

@@ -2,7 +2,7 @@ import bg1 from "./bg1.jpeg";
 import red from "./red.png";
 function Aboutus() {
   return (
-    <div className="mt-5 pt-5 pb-5"
+    <div className="mt-5 pt-5 pb-5" id="aboutus"
       style={{
         backgroundImage: `url(${bg1}), 
         url(${red})
@@ -17,7 +17,7 @@ function Aboutus() {
       <h1 style={{ textAlign: "center",fontSize:"40px" }} >About Us</h1>
       <div className="border mt-5 mb-5 pt-4 pb-4 pe-4 ps-4" style={{ position:"" ,marginLeft: "10%", marginRight: "10%" ,fontSize:"18px",lineHeight:"2"   }}>
         <p>
-          AdroidConnectz is the nation's biggest community of students and
+          Adroid Connectz is the nation's biggest community of students and
           mentors , providing the one stop solution to all the queries related
           to startups , research , internships , higher studies ,innovations
           etc.

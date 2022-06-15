@@ -6,7 +6,7 @@ function Mid() {
         <p style={{color:"blue"}}>Get in touch</p>
           <h1>Unparalleled Customer Support</h1>
           <p>
-            Whether you already use AdroidConnectz or want to see how our project
+            Whether you already use ADROIDCONNECTZ or want to see how our project
             based-learning platform can benefit your classroom, we’re here to
             help.
           </p>
@@ -19,20 +19,11 @@ function Mid() {
               Email
           </h6>
           <p>
-          support@adroidconnectz.com
+          adroidconnectz@gmail.com
 
 
           </p>
-          <h6>
-            Questions?
-          </h6>
-          <p>
-          Visit our <a href="#" >
-
-          FAQ
-          </a>
-
-          </p>
+         
         </div>
         <div class="col-sm-3 mc ms-5 ps-5 mt-5">
         <form>

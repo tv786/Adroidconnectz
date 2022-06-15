@@ -60,7 +60,7 @@ function Navbar(){
             
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li style={{fontSize:"12px", fontWeight: "bold", color:"black"}}><a class="dropdown-item " href="#" >AdroidConnectz TEAM</a></li>
+            <li style={{fontSize:"12px", fontWeight: "bold", color:"black"}}><a class="dropdown-item " href="#" >PROJECT PALS TEAM</a></li>
             <li style={{fontSize:"12px", fontWeight: "bold", color:"black"}}><a class="dropdown-item" href="#">NEWS</a></li>
 
           </ul>

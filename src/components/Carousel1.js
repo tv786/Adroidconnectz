@@ -16,13 +16,13 @@ function Carousel1() {
         <div className="carousel-item active">
           <img src={acarousel1} className="d-block w-100" alt="1" />
           <div class="carousel-caption c1b ">
-            <button className="btn btn-dark btn-lg rounded-0 c1but     "style={{marginLeft:'90%' } } >Register</button>
+            {/* <button className="btn btn-dark btn-lg rounded-0 c1but     "style={{marginLeft:'90%' } } >Register</button> */}
       </div>
         </div>
         <div className="carousel-item">
           <img src={acarousel2} className="d-block w-100" alt="2" />
           <div class="carousel-caption c1b ">
-            <button className="btn btn-dark btn-lg rounded-0 c1but"style={{marginLeft:'90%'} } >REGISTER</button>
+            {/* <button className="btn btn-dark btn-lg rounded-0 c1but"style={{marginLeft:'90%'} } >REGISTER</button> */}
       </div>
         </div>
         <div class="carousel-item">
@@ -34,19 +34,19 @@ function Carousel1() {
         <div class="carousel-item">
           <img src={acarousel4} className="d-block w-100" alt="4" />
           <div class="carousel-caption c1b ">
-            <button className="btn btn-dark btn-lg rounded-0 c1but"style={{marginLeft:'90%'} } >REGISTER</button>
+            {/* <button className="btn btn-dark btn-lg rounded-0 c1but"style={{marginLeft:'90%'} } >REGISTER</button> */}
       </div>
         </div>
         <div class="carousel-item">
           <img src={acarousel5} className="d-block w-100" alt="5 "/>
           <div class="carousel-caption c1b ">
-            <button className="btn btn-dark btn-lg rounded-0 c1but"style={{marginLeft:'90%'} } >REGISTER</button>
+            {/* <button className="btn btn-dark btn-lg rounded-0 c1but"style={{marginLeft:'90%'} } >REGISTER</button> */}
       </div>
         </div>
         <div class="carousel-item">
           <img src={acarousel6} className="d-block w-100" alt="6" />
           <div class="carousel-caption c1b ">
-            <button className="btn btn-dark btn-lg rounded-0 c1but "style={{marginLeft:'90%'} } >REGISTER</button>
+            {/* <button className="btn btn-dark btn-lg rounded-0 c1but "style={{marginLeft:'90%'} } >REGISTER</button> */}
       </div>
         </div>
 
