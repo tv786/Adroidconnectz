@@ -2,7 +2,7 @@ import students from "./students.jpeg";
 function Cards(props){
     return(
 
-        <div class="card col m-5 border-0 h-100 " style={{ 
+        <div class="card col m-5 border-0 h-75 p-3 " style={{ 
                 // width: "15rem" ,
         backgroundColor:"black" ,color:"white"
         }}
