@@ -19,20 +19,21 @@ function Carousel2() {
       id="carouselExampleSlidesOnly"
       class="carousel slide "
       data-bs-ride="carousel"
+      data-interval="1000"
 
 
     >
       <div className="carousel-inner pb-5 " style={{paddingLeft:"13%"}}>
-        <div className="carousel-item active">
+        <div className="carousel-item active" data-interval="1000">
           <img src={bcarousel1} className="w-70 c2i" alt="1" />
         
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item" data-interval="1000">
           <img src={bcarousel2} className=" w-70 c2i" alt="2" />
        
       </div>
         
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="1000">
           <img src={bcarousel3} className=" w-70 c2i" alt="3" />
        
       </div>
