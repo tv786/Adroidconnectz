@@ -31,7 +31,7 @@ function App() {
     <h2 className="" style={{textAlign:"center" , color:"white"}}>ADROIDCONNECTZ is an online platform to connect students with mentors and provide
 them with the opportunity to grow and build their carrier.</h2>
 
-  <div class="row align-items-start">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
     <Cards src={mentors} heading="Online Platform for Students and Mentors" text="Get connected with peers and related mentors."
     />
@@ -43,7 +43,7 @@ them with the opportunity to grow and build their carrier.</h2>
     <Cards src={hackathons} heading="Helps in initial career planning" text="Get consultation to plan career direction." />
     </div>
   </div>
-  <div class="row align-items-center">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
     <Cards src={ideathons} heading="Internships opportunities" text="Get opportunities for desired internships offers."/>
     </div>
@@ -56,7 +56,7 @@ them with the opportunity to grow and build their carrier.</h2>
 
     </div>
   </div>
-  <div class="row align-items-end">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
     <Cards src={students} heading="Higher Studies opportunities" text="Get opportunities for desired higher studies opportunities."/>
     </div>
@@ -67,7 +67,7 @@ them with the opportunity to grow and build their carrier.</h2>
     <Cards src={sitesearch} heading="Site Search" text="Get instant answers by searching our archives."/>
     </div>
   </div>
-  <div class="row align-items-end">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
     <Cards src={mes} heading="Private Messages" text="Connect with others, individually or in groups."/>
     </div>
@@ -78,7 +78,7 @@ them with the opportunity to grow and build their carrier.</h2>
     <Cards src={home} heading="Custom Homapage" text="Stay updated on the people and topics you follow."/>
     </div>
   </div>
-  <div class="row align-items-end">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
     <Cards src={topicfeed} heading="Topic Feeds" text="Filter out the noise. Find just what you need."/>
     </div>
