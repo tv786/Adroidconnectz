@@ -4,15 +4,23 @@ import career from "./features/components/career.jpeg";
 import hackathons from "./features/components/hackathons.jpeg";
 import ideathons from "./features/components/ideathons.jpeg";
 import jobs from "./features/components/jobs.jpeg";
+import sitesearch from "./features/components/sitesearch.png";
+import email from "./features/components/email.png";
+import modcom from "./features/components/modcom.jpeg";
+import mes from "./features/components/mes.png";
+import home from "./features/components/home.jpeg";
+import topicfeed from "./features/components/topicfeed.jpeg";
+
 import research from "./features/components/research.jpeg";
 import mentors from './features/components/mentor.png'
 import Navbar from "./navbar";
 import Footer from "./Footer";
 import connect from "./features/components/connect.jpeg"
+import Header from "./Header";
 function App() {
   return (
 <div  style={{backgroundColor:"#CD3333"}}>
-
+<Header />
 <Navbar />
 
     <div className="container"  
@@ -20,42 +28,65 @@ function App() {
     >
 
 
-    <h1 className="" style={{textAlign:"center"}}>Join India’s biggest community of students and mentors </h1>
+    <h2 className="" style={{textAlign:"center" , color:"white"}}>ADROIDCONNECTZ is an online platform to connect students with mentors and provide
+them with the opportunity to grow and build their carrier.</h2>
 
   <div class="row align-items-start">
     <div class="col">
-    <Cards src={students} heading="PROFILE" text="Join to build your profile for higher studies and help in initial career planning stages"
+    <Cards src={mentors} heading="Online Platform for Students and Mentors" text="Get connected with peers and related mentors."
     />
     </div>
     <div class="col">
-    <Cards src={career} heading="CAREER COUNSELLING " text="Children must be taught how to think not what to think . Join us for free counselling " />
+    <Cards src={career} heading="Profile Building of Students" text="Build profile for growing in future. " />
     </div>
     <div class="col">
-    <Cards src={hackathons} heading="HACKATHONS" text="Join India ‘s unique online portal for internship , hackathons and ideathons ." />
+    <Cards src={hackathons} heading="Helps in initial career planning" text="Get consultation to plan career direction." />
     </div>
   </div>
   <div class="row align-items-center">
     <div class="col">
-    <Cards src={ideathons} heading="IDEATHONS" text="Ideas are  easy . Implementation is hard . Learn to be thinker and implementer "/>
+    <Cards src={ideathons} heading="Internships opportunities" text="Get opportunities for desired internships offers."/>
     </div>
     <div class="col">
-    <Cards src={research} heading="RESEARCH" text="Learn to Re-search existing things in new and create new knowledge" />
+    <Cards src={research} heading="Job opportunities" text="Get opportunities for desired job offers." />
 
     </div>
     <div class="col">
-    <Cards src={jobs} heading="JOB OPPPORTUNITIES AND HIGHER STUDIES" text="Join for higher studies and help in job opportunities"/>
+    <Cards src={jobs} heading="Hackathons &amp; Ideathons" text="Get notified about Hackathons and Ideathons."/>
 
     </div>
   </div>
   <div class="row align-items-end">
     <div class="col">
-    <Cards src={mentors} heading="MENTORS" text="Mentors are available for all academics , industrial , training and counselling purposes "/>
+    <Cards src={students} heading="Higher Studies opportunities" text="Get opportunities for desired higher studies opportunities."/>
     </div>
     <div class="col">
-    <Cards src={connect} heading="MENTORS AND CONNECTION" text="Build a stronger relations between students and mentors by providing them a platform to connect ."/>
+    <Cards src={connect} heading="Topic Technological Groups" text="Get connected with topic specific peers and mentors."/>
     </div>
     <div class="col">
-    {/* <Cards src={students} heading="PROFILE" text="Join to build your profile for higher studies and help in initial career planning stages"/> */}
+    <Cards src={sitesearch} heading="Site Search" text="Get instant answers by searching our archives."/>
+    </div>
+  </div>
+  <div class="row align-items-end">
+    <div class="col">
+    <Cards src={mes} heading="Private Messages" text="Connect with others, individually or in groups."/>
+    </div>
+    <div class="col">
+    <Cards src={email} heading="Email Notifications" text="Get notified about new activity on your interests."/>
+    </div>
+    <div class="col">
+    <Cards src={home} heading="Custom Homapage" text="Stay updated on the people and topics you follow."/>
+    </div>
+  </div>
+  <div class="row align-items-end">
+    <div class="col">
+    <Cards src={topicfeed} heading="Topic Feeds" text="Filter out the noise. Find just what you need."/>
+    </div>
+    <div class="col">
+    <Cards src={modcom} heading="Moderated Community" text="Real names. Real people. No advertising. No BS."/>
+    </div>
+    <div class="col">
+    {/* <Cards src={students} heading="Custom Homapage" text="Stay updated on the people and topics you follow."/> */}
     </div>
   </div>
 </div>
