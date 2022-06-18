@@ -15,11 +15,12 @@ function Navbar(){
         Home
       </Link><a className="me-4" style={{ textDecoration: 'none', color:"red" }} href='#aboutus' >
             About Us
-      </a><Link className="me-4" style={{ textDecoration: 'none' , color:"red" }} to="/features">
+      </a><Link className="" style={{ textDecoration: 'none' , color:"red" }} to="/features">
             Features
-      </Link><a className="" style={{ textDecoration: 'none' , color:"red" }} >
-        FAQ 
-      </a>
+      </Link>
+      {/* <a className="" style={{ textDecoration: 'none' , color:"red" }} > */}
+        {/* FAQ  */}
+      {/* </a> */}
       </div>
       </nav>
 
