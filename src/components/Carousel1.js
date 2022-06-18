@@ -9,43 +9,43 @@ function Carousel1() {
   return (
     <div
       id="carouselExampleSlidesOnly"
-      className="carousel slide"
+      class="carousel slide"
       data-bs-ride="carousel"
     >
       <div className="carousel-inner">
-        <div className="carousel-item active">
+        <div className="carousel-item active" data-interval="1000">
           <img src={acarousel1} className="d-block w-100" alt="1" />
-          <div className="carousel-caption c1b ">
+          <div class="carousel-caption c1b ">
             {/* <button className="btn btn-dark btn-lg rounded-0 c1but     "style={{marginLeft:'90%' } } >Register</button> */}
       </div>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item" data-interval="1000">
           <img src={acarousel2} className="d-block w-100" alt="2" />
           <div class="carousel-caption c1b ">
             {/* <button className="btn btn-dark btn-lg rounded-0 c1but"style={{marginLeft:'90%'} } >REGISTER</button> */}
       </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="1000">
           <img src={acarousel3} className="d-block w-100" alt="3" />
-          <div className="carousel-caption c1b  ">
-            {/*<button className="btn btn-dark btn-lg rounded-0 c1but "style={{marginLeft:'90%'} } >REGISTER</button>*/}
+          <div class="carousel-caption c1b  ">
+            <button className="btn btn-dark btn-lg rounded-0 c1but "style={{marginLeft:'90%'} } >REGISTER</button>
       </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="1000">
           <img src={acarousel4} className="d-block w-100" alt="4" />
-          <div className="carousel-caption c1b ">
+          <div class="carousel-caption c1b ">
             {/* <button className="btn btn-dark btn-lg rounded-0 c1but"style={{marginLeft:'90%'} } >REGISTER</button> */}
       </div>
         </div>
-        <div className="carousel-item">
+        <div class="carousel-item" data-interval="1000">
           <img src={acarousel5} className="d-block w-100" alt="5 "/>
-          <div className="carousel-caption c1b ">
+          <div class="carousel-caption c1b ">
             {/* <button className="btn btn-dark btn-lg rounded-0 c1but"style={{marginLeft:'90%'} } >REGISTER</button> */}
       </div>
         </div>
-        <div className="carousel-item">
+        <div class="carousel-item" data-interval="1000">
           <img src={acarousel6} className="d-block w-100" alt="6" />
-          <div className="carousel-caption c1b ">
+          <div class="carousel-caption c1b ">
             {/* <button className="btn btn-dark btn-lg rounded-0 c1but "style={{marginLeft:'90%'} } >REGISTER</button> */}
       </div>
         </div>
